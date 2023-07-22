@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: deployment-one-configmap
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Deployment One - Aaron's Ecommerce clothing and accessories</title>
+      </head>
+      <body>
+        <h1>This is Deployment One</h1>
+      </body>
+    </html>
